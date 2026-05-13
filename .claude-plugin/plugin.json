@@ -1,0 +1,12 @@
+{
+  "name": "cmux-session-cleaner",
+  "version": "1.0.0",
+  "description": "Prevents cmux memory bloat by pruning dead Claude Code session entries from ~/.cmuxterm/claude-hook-sessions.json. Fires on every prompt and session end — no manual cleanup needed.",
+  "author": {
+    "name": "Oleg Puchkov",
+    "url": "https://github.com/puchkoff"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/puchkoff/cmux-session-cleaner",
+  "keywords": ["cmux", "memory", "cleanup", "sessions", "macos"]
+}
