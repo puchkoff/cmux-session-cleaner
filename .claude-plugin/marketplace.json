@@ -7,7 +7,7 @@
   "plugins": [
     {
       "name": "cmux-session-cleaner",
-      "source": { "source": "github", "repo": "puchkoff/cmux-session-cleaner" },
+      "source": "./",
       "description": "Prevents cmux memory bloat by pruning dead Claude Code session entries from ~/.cmuxterm/claude-hook-sessions.json"
     }
   ]
