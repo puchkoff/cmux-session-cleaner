@@ -1,0 +1,14 @@
+{
+  "name": "cmux-session-cleaner",
+  "owner": {
+    "name": "Oleg Puchkov",
+    "url": "https://github.com/puchkoff"
+  },
+  "plugins": [
+    {
+      "name": "cmux-session-cleaner",
+      "source": ".",
+      "description": "Prevents cmux memory bloat by pruning dead Claude Code session entries from ~/.cmuxterm/claude-hook-sessions.json"
+    }
+  ]
+}
